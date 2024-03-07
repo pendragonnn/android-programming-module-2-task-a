@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">modul2a</string>
     <string name="login">Login</string>
-    <string name="username">Username</string>
-    <string name="password">Password</string>
+    <string name="username">Username (sample: Admin)</string>
+    <string name="password">Password (sample: 123)</string>
     <string name="signup">Not yet registered? SignUp Now</string>
 </resources>

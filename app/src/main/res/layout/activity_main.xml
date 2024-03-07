@@ -20,7 +20,7 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/username"
+        android:id="@+id/edt_username"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
@@ -32,7 +32,7 @@
         android:textColorHighlight="@color/cardview_dark_background" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/edt_password"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -64,4 +64,22 @@
         android:textAlignment="center"
         android:textColor="@color/teal_700"
         android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/resultTextSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textColor="@color/teal_700"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/resultTextFailed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textColor="@color/design_default_color_error"
+        android:text="" />
 </LinearLayout>
